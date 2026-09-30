@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Descripción breve del negocio y sus principales servicios."
+  >
+
+  <title>Nombre del negocio | Servicio principal</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__content">
+      <a class="logo" href="#inicio">LOGO</a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        ☰
+      </button>
+
+      <nav id="main-navigation" class="navigation" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero__content">
+        <p class="eyebrow">Frase breve sobre el negocio</p>
+
+        <h1>Una propuesta clara que explique el principal beneficio</h1>
+
+        <p>
+          Describe qué hace el negocio, a quién ayuda y por qué el cliente
+          debería elegirlo.
+        </p>
+
+        <div class="hero__actions">
+          <a class="button button--primary" href="#contacto">
+            Solicitar información
+          </a>
+
+          <a class="button button--secondary" href="#servicios">
+            Ver servicios
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <p class="eyebrow">Lo que ofrecemos</p>
+        <h2>Servicios principales</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Servicio uno</h3>
+            <p>Explicación breve del primer servicio o producto.</p>
+          </article>
+
+          <article class="card">
+            <h3>Servicio dos</h3>
+            <p>Explicación breve del segundo servicio o producto.</p>
+          </article>
+
+          <article class="card">
+            <h3>Servicio tres</h3>
+            <p>Explicación breve del tercer servicio o producto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section section--alternate">
+      <div class="container">
+        <p class="eyebrow">Por qué elegirnos</p>
+        <h2>Beneficios para nuestros clientes</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Atención personalizada</h3>
+            <p>Adapta este texto según la propuesta del negocio.</p>
+          </article>
+
+          <article class="card">
+            <h3>Calidad y confianza</h3>
+            <p>Incluye una ventaja concreta y fácil de comprobar.</p>
+          </article>
+
+          <article class="card">
+            <h3>Respuesta rápida</h3>
+            <p>Explica cómo se facilita el proceso para el cliente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section">
+      <div class="container">
+        <p class="eyebrow">Experiencias reales</p>
+        <h2>Lo que dicen nuestros clientes</h2>
+
+        <div class="card-grid">
+          <blockquote class="card testimonial">
+            <p>“Aquí irá el comentario de un cliente satisfecho.”</p>
+            <footer>— Nombre del cliente</footer>
+          </blockquote>
+
+          <blockquote class="card testimonial">
+            <p>“Aquí irá un segundo comentario sobre el servicio.”</p>
+            <footer>— Nombre del cliente</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section--alternate">
+      <div class="container contact">
+        <div>
+          <p class="eyebrow">Hablemos</p>
+          <h2>Solicita información</h2>
+
+          <p>
+            Reemplaza este texto con el teléfono, correo, dirección y horario
+            del negocio.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="button button--primary" type="submit">
+            Enviar consulta
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        © <span id="current-year"></span> Nombre del negocio.
+        Todos los derechos reservados.
+      </p>
+
+      <p>Sitio desarrollado por Llegaweb.</p>
+    </div>
+  </footer>
+
+  <a
+    class="whatsapp-button"
+    href="https://wa.me/56900000000"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactar por WhatsApp"
+  >
+    WhatsApp
+  </a>
+</body>
+</html>
